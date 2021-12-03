@@ -459,6 +459,9 @@ footer{
     display: block;
     width: 50px;
   }
+  .form-group{
+    display: none;
+  }
 
   .menu-box{
     width: 100%;
@@ -675,6 +678,9 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     bottom: unset;
     margin-top: 0px;
     margin-bottom: -100px;
+  }
+  .form-group{
+    display: none;
   }
   .coll{
     flex-basis: 100%;
