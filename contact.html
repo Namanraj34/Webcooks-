@@ -14,12 +14,13 @@
 
     <title>Webcooks!</title>
     <link rel="shortcut icon" type="image/png" href="fav.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contacts.css">
   </head>
   <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/Webcooks-/index.html"><img src="logo.png" alt="" class="logo"></a>
+            <a class="navbar-brand" href="index.html"><img src="/logo.png" alt="" class="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -28,28 +29,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/Webcooks-/index.html"><i class="fas fa-home"></i> Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Webcooks-/index.html"><i class="far fa-address-card"></i> About</a>
+                        <a class="nav-link" href="/index.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-book"></i>
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Course.
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/Webcooks-/contact.html">Website Planning and Creation.</a></li>
-                            <li><a class="dropdown-item" href="/Webcooks-/contact.html">Search Engine Optimisation (SEO)</a></li>
+                            <li><a class="dropdown-item" href="/contact.html">Website Planning and Creation.</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Search Engine Optimisation (SEO)</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="/Webcooks-/contact.html">Web Analytics.</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Web Analytics.</a></li>
                         </ul>
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/Webcooks-/contact.html"><i class="fas fa-address-book"></i> Contact Us</a>
+                        <a class="nav-link active" href="index.html">Contact Us</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -130,13 +131,43 @@
     </div>
 
     <!-- Contact Us start -->
-      <section style="padding-left: 80px; background-color: #8BC6EC;
+
+
+    <section class="coon">
+        <div class="container2">
+            <form action="https://formspree.io/f/mrgjzwql" method="POST" id="my-form">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="firstName" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="massagee">Massage</label>
+                    <textarea name="massagee" id="massagee" cols="30" rows="2"></textarea>
+                </div>
+                <button class="bon" type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="status" class="error">Success</div>
+    </section>
+      <!-- <section style="padding-left: 80px; background-color: #8BC6EC;
       background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
       " >
-        <h2 >Contact Us</h2>
+
+      <div class="container3">
+        <form action="https://formspree.io/f/xayvwgev" method="POST">
+        <h3>Contact Us</h3>
         <div class="mb-3 my-2">
          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+         <input type="email" class="form-control" id="email" name="Email" placeholder="name@example.com">
        </div>
        <select class="form-select" aria-label="Default select example">
          <option selected>Select Your Course</option>
@@ -178,10 +209,12 @@
      <div class="mb-3 my-2">
          <label for="exampleFormControlTextarea1" class="form-label">Elaborate Your Concern</label>
          <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
-      <button class="btn2 btn-primary my-1">Submit</button>
+      <button class="btn2 btn-primary my-2">Submit</button>
+    </form>
      </div>
      </div>
-    </section>
+</div>
+    </section> -->
 
     <!-- Footer section starts -->
   
@@ -205,6 +238,8 @@
         <button id="btnScrollToTop">
             <a href="#"><i class="far fa-hand-paper"></i></a>
        </button>
+
+       
      
 
     <!-- Optional JavaScript; choose one of the two! -->
