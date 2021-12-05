@@ -359,49 +359,6 @@ li a{
 /* three section ends here */
 
 
-/* form part starts */
-
-.contact{
-  text-align: center;
-}
-
-.contact-text{
-  text-align: left;
-}
-
-.Contact-box{
-  width: 47%;
-  height: 55px;
-  border: none;
-  background-color: #f0e9e9;
-  margin: 2% 1%;
-  border-radius: 10px;
-}
-
-.message-box{
-   width: 96.5%;
-   height: 150px;
-   border: none;
-}
-
-::placeholder{
-  color: #314584;
-  padding-left: 20px;
-  font-family: 'work Sans', sans-serif;
-}
-
-.message-box::placeholder{
-  padding-top: 20px;
-}
-
-.form-section{
-  width: 100%;
-  text-align: center;
-}
-
-
-/* Form ends here */
-
 
 /* Footer Starts here */
 
@@ -769,7 +726,9 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 
 
 
-/* CSS Variables */
+/* Contact form */
+
+
 :root{
   --navbar-height: 59px;
 }
@@ -816,4 +775,3 @@ body{
 .btn2{
   border-radius: 15px 40px;
 }
-
