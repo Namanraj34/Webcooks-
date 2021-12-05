@@ -78,7 +78,7 @@ h2{
 }
 
 .logo{
-  width: 250px;
+  width: 350px;
   height: 85px;
   margin-top: -20px;
   margin-left: -45px;
@@ -107,7 +107,7 @@ li a{
    background-color: transparent;
    color: #ff3946;
    border: none;
-   box-shadow: 0 3px 7px 0 #aaa9a9;
+   box-shadow: 0 3px 7px 0 #706f6f;
    border-radius: 5px;
    font-size: 1.1rem;
    font-weight: 600;
