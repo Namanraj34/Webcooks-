@@ -27,9 +27,6 @@ body{
   background-color: skyblue;
 }
 
-.btn3{
-  border-radius: 15px 40px;
-}
 
 h2{
   /* text-shadow: 4px 4px 0px rgba(0,0,0,0.32); */
@@ -59,29 +56,22 @@ h2{
 
 
  .navbar{
-  background-color: #8182d6;
-  background-image: linear-gradient(43deg, #ebebf3 0%, #48498d 46%, #03040a 100%);
-  
-   position: relative;
+   width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: fixed;
+   background-color: #314584;
  }
 
- .logo-box{
-   width: 10%;
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-
 .menu-box{
   width: 70%;
 }
 
 .search-box{
   width: 13%;
-}
-
-.logo{
-  width: 350px;
-  height: 85px;
-  margin-top: -20px;
-  margin-left: -45px;
 }
 
 
@@ -126,17 +116,7 @@ li a{
   color: #ff3946;
 }
 
-.toggle{
-  color: #314584;
-  font-size: 35px;
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  right: 0;
-  top: 22px;
-  display: none;
-  outline: none;
-}
+
 
 /* Navigation ends here */
 
@@ -182,10 +162,15 @@ li a{
 }
 
 .btn2{
-  background-color: transparent;
-  color: #314584;
-  border: 1px solid gray;
+  background-color: cornflowerblue;
+  color: #bac2db;
+  /* border: 1px solid gray; */
   font-weight: 600;
+  border-radius: 15px 10px;
+}
+.form-control{
+  border-radius: 10px 15px;
+  width: 50%;
 }
 
 /* Banner ends here */
@@ -412,9 +397,10 @@ footer{
 
 
 @media only screen and (max-width:1000px){
-  .toggle{
-    display: block;
-    width: 50px;
+  .navbar{
+    width: 100%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
   }
   .form-group{
     display: none;
@@ -759,19 +745,10 @@ body{
   width: 50%;
 }
 
-.form-control{
-  border-radius: 40px 15px;
-  width: 50%;
-}
-
 #message2{
   border-radius: 40px 15px;
   width: 50%;
 }
 .btn3{
-  border-radius: 15px 40px;
-}
-
-.btn2{
   border-radius: 15px 40px;
 }
